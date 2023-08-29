@@ -1,0 +1,50 @@
+.navbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 70px;
+    display: flex;
+    position: fixed;
+    background: var(--brand_bg);
+}
+
+.navbar>div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar img {
+    height: 70px;
+}
+
+.searchbar {
+    gap: 6px;
+    background: #81878C;
+    display: flex;
+    align-items: center;
+    padding: 5px 12px 5px 12px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.navbar input {
+    border: none;
+    background: none;
+    width: 100%;
+    color: white;
+}
+
+.navbar input::placeholder {
+    color: white;
+}
+
+.navbar input:focus {
+    outline: none;
+}
+
+.navbar button {
+    height: 40px;
+}

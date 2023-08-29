@@ -1,0 +1,78 @@
+.card {
+    border-radius: 12px;
+    background: linear-gradient(180deg, #3B3B3C 0%, #454747 100%);
+    box-shadow: 0px 13px 14px 0px rgba(0, 0, 0, 0.31);
+    overflow: hidden;
+    width: 380px;
+}
+
+.clubtag {
+    position: absolute;
+    margin-left: 275px;
+}
+
+.card>div {
+    display: flex;
+}
+
+.card>div:nth-child(2) {
+    padding: 10px;
+    height: 120px;
+}
+
+.icon {
+    background: #272B2D;
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #9C9C9C;
+    margin-top: 10px;
+}
+
+.highlight {
+    gap: 10px;
+    flex-wrap: wrap;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    width: 200px;
+}
+
+.offers {
+    background: #2C2C2C;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.offers p {
+    color: #06B183;
+    font-size: 14px;
+    align-self: center;
+}
+
+.offers div {
+    border-radius: 0px 0px 5px 5px;
+    background: linear-gradient(180deg, #04936D 0%, #04BF8D 100%);
+    width: 103px;
+    height: 33px;
+    flex-shrink: 0;
+    color: #262626;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
