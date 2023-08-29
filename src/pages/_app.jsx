@@ -1,5 +1,6 @@
 import '@/styles/globals.css';
 import Head from 'next/head';
+import Container from '@/components/Container';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 
@@ -12,11 +13,11 @@ const App = ({ Component, pageProps }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <>
+      <Container>
         <Navbar />
         <Component {...pageProps} />
         <Footer />
-      </>
+      </Container>
     </>
   )
 }

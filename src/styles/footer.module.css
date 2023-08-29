@@ -1,3 +1,51 @@
 .footer {
     background: var(--brand_bg);
+    margin-top: 40px;
+    color: white;
+    padding: 30px;
+
+}
+
+.footer>img {
+    margin-top: 30px;
+}
+
+.footer p {
+    color: #D9D9D9;
+    font-size: 14px;
+}
+
+.info {
+    display: flex;
+}
+
+.info>div {
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.findus {
+    padding-left: 30px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.socials img {
+    height: 25px;
+}
+
+.buttom_line {
+    padding-left: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.buttom_line p {
+    font-size: 12px;
 }
