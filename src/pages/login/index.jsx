@@ -1,10 +1,18 @@
-import React from 'react'
+import React from 'react';
+import Head from 'next/head';
+import Body from '@/components/Body';
 
 const login = () => {
     return (
-        <div>
+        <>
+            <Head>
 
-        </div>
+            </Head>
+
+            <Body>
+
+            </Body>
+        </>
     )
 }
 

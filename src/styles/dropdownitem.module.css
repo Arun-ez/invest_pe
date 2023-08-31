@@ -1,0 +1,17 @@
+.item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.item img {
+    height: 50px;
+}
+
+.item span {
+    font-weight: 500;
+}
+
+.item p {
+    font-size: 13px;
+}
