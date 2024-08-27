@@ -50,5 +50,3 @@ Follow the instructions provided below to run the application on the local syste
 ## Acknowledgement
 
 During building Invest Pe Landing and Login page i faced various challenges in aspect of CSS. There are several complex designs such as the Features section.
-
-Also i tried my best to build closer one as per the Design provided in Figma
